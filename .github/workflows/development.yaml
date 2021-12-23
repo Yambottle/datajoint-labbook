@@ -1,9 +1,9 @@
 name: Development
-on: push
-  # pull_request:
-  # push:
-  #   tags:
-  #     - '*.*.*'
+on:
+  pull_request:
+  push:
+    tags:
+      - '*.*.*'
 jobs:
   test-changelog:
     runs-on: ubuntu-latest
