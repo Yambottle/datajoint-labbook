@@ -1,3 +1,4 @@
+## act -P ubuntu-latest=drewyangdev/ubuntu:act-latest --secret-file ./.github/.test/.secrets --artifact-server-path ./.github/.test/artifacts/
 name: Development
 on:
   pull_request:
